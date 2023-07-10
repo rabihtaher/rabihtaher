@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>NEXT</title>
+    <style>
+      .goback-button {
+        position: fixed;
+        top: 20px;
+        right: 40px;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="goback-button" onclick="goBack()">Go Back to Home</button>
+
+    <img src="../images/next.JPG" alt="NEXT" />
+
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </body>
+</html>
